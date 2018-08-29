@@ -83,7 +83,7 @@
   position: absolute;
   height: 20px;
   width: 20px;
-  background-image: url("./images/icons/social_sprite.png");
+  background-image: url("../../images/icons/social_sprite.png");
   background-repeat: no-repeat;
   display: block;
 }

@@ -1,41 +1,41 @@
 @font-face {
-  font-family: 'GoraFree-Regular';
-  src: url('../font/GoraFree-Regular.woff') format('woff'), url('../font/GoraFree-Regular.woff2') format('woff');
+  font-family: "GoraFree-Regular";
+  src: url("../../font/GoraFree-Regular.woff") format("woff"), url("../../font/GoraFree-Regular.woff2") format("woff");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'GoraFree-Regular';
-  src: url('../font/GoraFree-Regular.woff') format('woff'), url('../font/GoraFree-Regular.woff2') format('woff');
+  font-family: "GoraFree-Regular";
+  src: url("../../font/GoraFree-Regular.woff") format("woff"), url("../../font/GoraFree-Regular.woff2") format("woff");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Open Sans';
-  src: url('../font/OpenSansRegular.woff') format('woff');
+  font-family: "Open Sans";
+  src: url("../../font/OpenSansRegular.woff") format("woff");
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Open Sans';
-  src: url('../font/OpenSansLight.woff') format('woff');
+  font-family: "Open Sans";
+  src: url("../../font/OpenSansLight.woff") format("woff");
   font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Open Sans';
-  src: url('../font/OpenSansLightItalic.woff') format('woff');
+  font-family: "Open Sans";
+  src: url("../../font/OpenSansLightItalic.woff") format("woff");
   font-weight: 300;
   font-style: italic;
 }
 
 @font-face {
-  font-family: 'Open Sans';
-  src: url('../font/OpenSansBold.woff') format('woff');
+  font-family: "Open Sans";
+  src: url("../../font/OpenSansBold.woff") format("woff");
   font-weight: 700;
   font-style: normal;
 }
