@@ -28,7 +28,7 @@
   display: inline-block;
   vertical-align: middle;
   margin-right: 16px;
-  background: url("./images/icons/nav_sprite.png") 0 0 no-repeat;
+  background: url("../../images/icons/nav_sprite.png") 0 0 no-repeat;
 }
 
 .navigation__link--main-icon:before {

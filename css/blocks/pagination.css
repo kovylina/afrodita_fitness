@@ -1,5 +1,5 @@
 .pagination {
-  font-family: 'Roboto', Helvetica, sans-serif;
+  font-family: "Roboto", Helvetica, sans-serif;
   font-weight: 300;
   font-size: 14px;
   text-align: center;
@@ -15,7 +15,7 @@
 }
 
 .pagination__btns {
-  font-family: 'Roboto', Helvetica, sans-serif;
+  font-family: "Roboto", Helvetica, sans-serif;
   font-weight: 300;
   color: #656464;
   margin-left: 17px;
@@ -57,6 +57,6 @@
 }
 
 .pagination__btn--next {
-  background-image: url("./images/icons/next.png");
+  background-image: url("../../images/icons/next.png");
   background-repeat: no-repeat;
 }
