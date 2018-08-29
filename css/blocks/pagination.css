@@ -1,58 +1,62 @@
 .pagination {
-    font-family: 'Roboto', Helvetica, sans-serif; 
-    font-weight: 300;   
-    font-size: 14px; 
-    text-align: center;
+  font-family: 'Roboto', Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  text-align: center;
 }
 
-.pagination__info, .pagination__btns, .pagination__btn, .pagination__list, .pagination__item {
-    display: inline-block; 
-    text-align: center;
+.pagination__info,
+.pagination__btns,
+.pagination__btn,
+.pagination__list,
+.pagination__item {
+  display: inline-block;
+  text-align: center;
 }
 
 .pagination__btns {
-    font-family: 'Roboto', Helvetica, sans-serif; 
-    font-weight: 300;
-    color: #656464;
-    margin-left: 17px;    
+  font-family: 'Roboto', Helvetica, sans-serif;
+  font-weight: 300;
+  color: #656464;
+  margin-left: 17px;
 }
 
 .pagination__list {
-    list-style: none;
-    font-weight: 700;
-    margin: 0 11px; 
+  list-style: none;
+  font-weight: 700;
+  margin: 0 11px;
 }
 
 .pagination__link {
-    display: block;
-    color: #221f1f;
-    text-decoration: none;
-    padding: 6px 9px;
-            border-radius: 3px;
-    -webkit-border-radius: 3px;
+  display: block;
+  color: #221f1f;
+  text-decoration: none;
+  padding: 6px 9px;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
 }
 
 .pagination__link:hover {
-    color: #f89513;
+  color: #f89513;
 }
 
 .pagination__link--active {
-    background-color: #27273e;
-    color: #ffffff;
+  background-color: #27273e;
+  color: #ffffff;
 }
 
 .pagination__btn {
-    text-decoration: none;
-    width: 6px;
-    height: 10px;
+  text-decoration: none;
+  width: 6px;
+  height: 10px;
 }
 
 .pagination__btn--prev {
-    background-image: url("/images/icons/prev.png");
-    background-repeat: no-repeat; 
+  background-image: url("./images/icons/prev.png");
+  background-repeat: no-repeat;
 }
-  
+
 .pagination__btn--next {
-    background-image: url("/images/icons/next.png");
-    background-repeat: no-repeat; 
+  background-image: url("./images/icons/next.png");
+  background-repeat: no-repeat;
 }

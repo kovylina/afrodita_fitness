@@ -1,57 +1,56 @@
-
 .navigation__item {
-    display: inline-block;
-    margin-left: 25px;
+  display: inline-block;
+  margin-left: 25px;
 }
 
 .navigation__item:first-child {
-    margin-left: 0;
+  margin-left: 0;
 }
 
 .navigation__link {
-    font-size: 12px;
-    font-weight: bold;    
-    text-decoration: none;
-    text-transform: uppercase;
-    display: block;
-    color: #ffffff;
-    letter-spacing: 1px;
+  font-size: 12px;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: block;
+  color: #ffffff;
+  letter-spacing: 1px;
 }
 
 .navigation__link:hover {
-    color: #f89513;
+  color: #f89513;
 }
 
 .navigation__link:before {
-    content:"";
-    width: 20px;
-    height: 19px;
-    display: inline-block;
-    vertical-align: middle;
-    margin-right: 16px; 
-    background: url("/images/icons/nav_sprite.png") 0 0 no-repeat;
+  content: "";
+  width: 20px;
+  height: 19px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 16px;
+  background: url("./images/icons/nav_sprite.png") 0 0 no-repeat;
 }
-  
+
 .navigation__link--main-icon:before {
-    background-position: -40px 0; 
+  background-position: -40px 0;
 }
-  
+
 .navigation__link--star-icon:before {
-    background-position: 0 0;  
+  background-position: 0 0;
 }
-  
+
 .navigation__link--service-icon:before {
-    background-position: -80px 0; 
+  background-position: -80px 0;
 }
- 
+
 .navigation__link--main-icon:hover:before {
-    background-position: -40px bottom;
+  background-position: -40px bottom;
 }
-  
-.navigation__link--star-icon:hover:before  {
-    background-position: 0 bottom;  
+
+.navigation__link--star-icon:hover:before {
+  background-position: 0 bottom;
 }
-  
-.navigation__link--service-icon:hover:before  {
-    background-position: -80px bottom;
+
+.navigation__link--service-icon:hover:before {
+  background-position: -80px bottom;
 }
