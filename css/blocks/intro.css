@@ -1,6 +1,6 @@
 .intro {
   position: absolute;
-  background: url("./images/intro_background.jpg");
+  background: url("../images/intro_background.jpg");
   background-size: cover;
   top: 0;
   left: 0;
