@@ -1,0 +1,33 @@
+.breadcrumbs {
+    font-weight: 300;
+    font-style: italic;
+    font-size: 14px;
+    color: #221f1f;
+    text-align: left;
+    margin-bottom: 13px;
+}
+
+.breadcrumbs__list {
+    list-style: none;
+}
+
+.breadcrumbs__item{
+    display: inline-block;
+}
+
+.breadcrumbs__item:after {
+    content: "/";
+}
+
+.breadcrumbs__item:last-child:after {
+    display: none;
+}
+
+.breadcrumbs__link {
+    color: #f89513;
+}
+
+.breadcrumbs__link--active {
+    text-decoration: none;
+    color: #221f1f;
+}

@@ -1,0 +1,15 @@
+/* layout */
+@import url("layout/normalize.css");
+@import url("layout/fonts.css");
+@import url("layout/base.css");
+
+@import url("pages/servicespage.css");
+
+/* blocks */
+@import url("blocks/header.css");
+@import url("blocks/nav.css");
+@import url("blocks/dropdown.css");
+@import url("blocks/breadcrumbs.css");
+@import url("blocks/service.css");
+@import url("blocks/partners.css");
+@import url("blocks/footer.css");

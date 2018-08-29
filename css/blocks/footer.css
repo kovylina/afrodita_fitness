@@ -1,0 +1,109 @@
+.footer {
+    position: relative;
+    height: 75px;
+    font-weight: 300;    
+    background-color: #131415;
+    color: #ffffff;
+    margin-top: -75px;
+    min-width: 1100px;
+    overflow: hidden;
+    padding-top: 11px;
+}
+
+.footer__copyright {
+    float: left;
+    width: 250px;
+    text-align: left;
+    line-height: 1.29;
+}
+
+.footer__logo {
+    float: left;
+    width: 566px;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 18px;
+}
+
+.footer__socials {
+    float: right;
+    width: 175px;
+    text-align: left;
+    padding-top: 6px;
+}
+
+.copyright{
+    font-size: 14px;
+}
+
+.copyright__link {
+    font-weight: 700;
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.copyright__author {
+    font-weight: 700;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.socials__caption {
+    font-weight: 700;
+    font-size: 14px;   
+    margin-bottom: 8px; 
+}
+
+.socials__list {
+    list-style: none;
+}
+
+.socials__item {
+    display: inline-block;
+    margin-right: 7px;   
+}
+
+.socials__link {
+    text-decoration: none;
+    display: block;
+    height: 20px;
+    width: 20px;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    overflow: hidden;  
+    background-color: #d0d0d0;
+    position: relative;
+}
+
+.socials__link:hover {
+    background-color: #f89513;
+}
+
+.socials__icon {
+    position: absolute;  
+    height: 20px;
+    width: 20px;       
+    background-image: url("/images/icons/social_sprite.png");
+    background-repeat: no-repeat;
+    display: block;  
+}
+
+.socials__icon--vk {
+    background-position: -40px 0;
+}
+
+.socials__icon--fb {
+    background-position: 0 0;    
+}
+
+.socials__icon--google {
+    background-position: -80px 0;      
+}
+
+.socials__icon--twitter {
+    background-position: -120px 0;       
+}
+
+.socials__icon--mail {
+    background-position: -160px 0;    
+}

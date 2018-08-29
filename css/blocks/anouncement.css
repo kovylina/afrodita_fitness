@@ -1,0 +1,22 @@
+.announcement {
+    background-color: #131415;
+    background-image: url("/images/pattern.png");
+    margin-bottom: 61px;
+}
+
+.announcement__text {
+
+    font-weight: 300;
+    color: #ffffff;
+    font-size: 18px;
+    text-align: left;
+    line-height: 1.67;
+    padding-top: 21px;
+    padding-bottom: 30px;
+}
+
+.announcement__text--marked {
+    font-weight: 700;
+    color: #f89513;
+    font-size: 18px;
+}
